@@ -1,0 +1,30 @@
+.acme-navbar-text {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    line-height: 1.25em;
+}
+
+a:hover,
+a:focus {
+    color: greenyellow;
+}
+
+.navbar {
+    .btn-danger {
+        padding: 10px;
+        color: #fff !important;
+        margin-top: 4px;
+        &:hover,
+        &:active {
+            background-color: red !important;
+        }
+    }
+}

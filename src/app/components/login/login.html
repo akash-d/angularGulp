@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="login">
+    <div class="login-box">
+      <h2>Please Sign in</h2>
+      <div class="form-group">
+        <input type="email" placeholder="Enter email id" ng-model="login.email"  ng-change="change()" name='email' class="form-control" required="">
+        <input type="password" placeholder="Enter password" ng-model="login.password" ng-change="change()" name='password' class="form-control"
+               required="">
+      </div>
+      <button class="btn btn-primary text-center" ng-disabled="!disableBtn" ng-click="goTo()">Sign in</button>
+    </div>
+
+  </div>
+</div>
